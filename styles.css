@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 1050px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/66/220/943/bmw-cars-car-sport-car-wallpaper-preview.jpg);
+    background-size: cover;
+}
+
+.navbar{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 325px;
+    margin-left: 150px;
+    border-bottom: 1px solid black;
+    margin-bottom: 700px;
+}
+.navbmw
+{
+    padding: 30px 15px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    
+}
+a{
+    color: white;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search{
+    padding: 15px 15px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    height: 50px;
+    padding: 10px 15px;
+}
+.logo{
+    position: absolute;
+    right: 230px;
+    height: 90px;
+    width: 70px;
+}
+.discover{
+    margin-left: 100px;
+}
+.logoh1{
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 65px;
+}
+.logoh2{
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+button{
+    background-color: rgb(85, 121, 169);
+    color: white;
+    justify-content: center;
+    margin: 5px 15px 0px 0px;
+    width: 400px;
+    height: 50px;
+    font-weight: 700;
+    line-height: 1.2857;
+    letter-spacing: .8px;
+}
+main{
+    padding: 250px 250px 50px;
+}
+.Series{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 20px;
+}
+.list{
+    display:flex;
+    flex-direction: row;
+    padding: 50px 0px;
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+}
+.cabrio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+.listitem{
+    color: grey;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+.Carlist{
+    display:flex;
+    flex-direction: row;
+    padding: 50px 0px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.Caritems{
+    width: 225px;
+    padding: 0px 35px 80px;
+}
+.Car{
+    width: 100%;
+    height: auto;
+}
+.Carname{
+    font-weight: 600;
+    font-size: 20px;
+}
+.Sub{
+    color: grey;
+    font-weight: 600;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.Conf{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 0px;
+}
+.Cards{
+    display: flex;
+    justify-content: center;
+}
+.Cardsitems{
+    width: 300px;
+    height: 325px;
+    box-shadow: 0 0 2rem rgb(0 0 0 / 10%);
+    padding: 20px;
+    margin: 10px 10px 100px;
+}
+.Cardimg{
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    height: 50%;
+    padding: 0px;
+    
+}
+.Cardh1{
+    text-align: left;
+    font-size: 25px;
+    padding: 20px 20px 10px 0px;
+}
+.cardp{
+    text-align: left;
+    font-size: 14px;
+}
+.Cardstwo{
+    width: 850px;
+    height: 400px;
+    box-shadow: 0 0 2rem rgb(0 0 0 / 10%);
+    padding: 20px;
+    margin: 10px 10px 150px 10px;
+}
+.Cardimg2{
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    height: 80%;
+    padding: 0px;
+}
+.Cards{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+.Cardconf{
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    flex-direction: column;
+
+
+    justify-content: center;
+    padding: 0px 20px;
+    width: 240px;
+    height: 150px;
+
+}
+.Icon{
+    padding-left: 100px;
+    width: 30px;
+    height: 35px;
+}
+.Iconsub{
+    padding-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 20px;
+}
+footer{
+    background-color: rgb(227, 227, 227);
+}
+.Footertotal{
+    margin: 10px 225px 0px;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+.Foottersub{
+    padding: 10px 143px 10px 10px;
+    border-top: 1px solid grey;
+}
+.Contact{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 40px 0px 20px;
+}
+ul{
+    list-style: none;
+}
+li{
+    color: grey;
+    
+}
+.Finalfoot{
+    background-color: white;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.white
+{
+    padding: 30px 15px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.finala{
+    color: blue;
+    font-size: 14px;
+
+}
